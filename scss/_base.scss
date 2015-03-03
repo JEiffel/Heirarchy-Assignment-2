@@ -1,0 +1,39 @@
+body {
+    font-size:20px;
+    @include body-font;
+	margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+    line-height: 2em;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+h1 {
+    @include headline-font;
+    font-size: 60px;
+    line-height: 1.1em
+
+}
+
+h2 {
+    position: relative;
+    right:50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+footer{
+    font-size:15px;
+}
+
+b, strong {
+    @include bold-font;
+}
+
+i, em {
+    @include italic-font;
+}
